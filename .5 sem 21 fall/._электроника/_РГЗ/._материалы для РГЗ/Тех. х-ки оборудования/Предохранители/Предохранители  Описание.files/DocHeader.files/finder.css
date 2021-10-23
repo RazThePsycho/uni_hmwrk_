@@ -1,0 +1,483 @@
+.bbox1 {
+	BORDER-RIGHT: #ddd 1px ridge; BORDER-TOP: #ddd 1px ridge; BORDER-LEFT: #ddd 1px ridge; BORDER-BOTTOM: #ddd 1px ridge; BACKGROUND-COLOR: #f0f0f0
+}
+.tab1Back {
+	BACKGROUND-COLOR: #e0e0c6
+}
+.tab1Front {
+	BACKGROUND-COLOR: #e0e0c6
+}
+.tab2Back {
+	BACKGROUND-COLOR: #e0e0c6
+}
+.tab2Front {
+	BACKGROUND-COLOR: #e0e0c6
+}
+.tab3Sel {
+	BACKGROUND-COLOR: #d9daff
+}
+.tab3Nosel1 {
+	BACKGROUND-COLOR: #f5f5f5
+}
+.tab3Nosel2 {
+	BACKGROUND-COLOR: #ffffff
+}
+.fld1 {
+	BORDER-RIGHT: #999 2px inset; BORDER-TOP: #999 2px inset; FONT-SIZE: 90%; BORDER-LEFT: #999 2px inset; COLOR: #111; BORDER-BOTTOM: #999 2px inset; FONT-FAMILY: "Geneva CY",  Geneva, Arial; BACKGROUND-COLOR: #f0f0ff
+}
+.lkt1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #fff; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.lkt2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.lkt2b {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #000060; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.tt1 {
+	FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.tt1w {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #ffffff; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.tt2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #303050; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.tt3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 70%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.tt4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 70%; COLOR: #303050; FONT-FAMILY: "Geneva CY",  Geneva, Arialf
+}
+.tt5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 70%; COLOR: #303050; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.tt6 {
+	FONT-WEIGHT: normal; FONT-SIZE: 70%; COLOR: #000060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.tt7 {
+	FONT-WEIGHT: normal; FONT-SIZE: 70%; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.tt8 {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #000060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.tt9 {
+	FONT-SIZE: 80%; COLOR: #555; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.error {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #e00000; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.tbig {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.br {
+	FONT-SIZE: 120%
+}
+.dinN {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.dinNo {
+	COLOR: #505050
+}
+.dinPlus {
+	COLOR: #900000
+}
+.dinMinus {
+	COLOR: #000090
+}
+.tbig2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 240%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+A.lk1:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: black; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk1:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: black; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk1:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: black; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk2:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk2:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk2:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk3:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #b22222; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk3:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #b22222; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk3:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #b22222; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk4:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk4:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk4:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk5:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk5:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk5:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk51:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #606060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk51:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #606060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk51:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #606060; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk52:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk52:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk52:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk6:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk6:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk6:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk7:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #b22222; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk7:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #b22222; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk7:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #b22222; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk8:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%; COLOR: #fff; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk8:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%; COLOR: #fff; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lk8:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%; COLOR: #fff; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.nav2n:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #4682b4; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.nav2n:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #4682b4; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.nav2n:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #4682b4; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.link1:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none
+}
+A.link1:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: underline
+}
+A.link1:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none
+}
+A.title1:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #333300; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none
+}
+A.title1:hover {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; COLOR: #333300; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: underline
+}
+A.title1:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #333300; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none
+}
+TD.tb1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; LINE-HEIGHT: normal; PADDING-TOP: 4px; BORDER-BOTTOM: #444 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #ffe684
+}
+TD.tb3 {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 6px; LINE-HEIGHT: normal; PADDING-TOP: 6px; BORDER-BOTTOM: #444 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #fc6
+}
+TD.tb2 {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 6px; LINE-HEIGHT: normal; PADDING-TOP: 6px; BORDER-BOTTOM: #444 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #ffe684
+}
+TD.tb4 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 1px; LINE-HEIGHT: normal; PADDING-TOP: 1px; BORDER-BOTTOM: #444 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #ffe684
+}
+TD.tb5 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; LINE-HEIGHT: normal; PADDING-TOP: 4px; BORDER-BOTTOM: #444 1px solid; FONT-STYLE: normal
+}
+TD.tb6 {
+	PADDING-RIGHT: 5px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; BORDER-LEFT: #999 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 4px; BORDER-BOTTOM: #444 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #e0e0c6
+}
+TD.tb7 {
+	BORDER-RIGHT: #4e4e4e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #4e4e4e 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; BORDER-LEFT: #4e4e4e 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 4px; FONT-STYLE: normal; BACKGROUND-COLOR: #ffe684
+}
+TD.tb8 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 1px; BORDER-LEFT: #999 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 1px; BORDER-BOTTOM: #444 1px solid; FONT-STYLE: normal
+}
+TD.tb9 {
+	FONT-SIZE: 80%; LINE-HEIGHT: 100%
+}
+TD.tb10 {
+	BORDER-TOP: #ddd 2px groove; FONT-SIZE: 80%; BORDER-LEFT: #ddd 2px groove; LINE-HEIGHT: 100%
+}
+TD.tb11 {
+	BORDER-RIGHT: #ddd 2px groove; BORDER-TOP: #ddd 2px groove; FONT-SIZE: 80%; LINE-HEIGHT: 100%
+}
+TD.tb12 {
+	BORDER-RIGHT: #ddd 2px groove; BORDER-TOP: #ddd 2px groove; FONT-SIZE: 80%; LINE-HEIGHT: 100%
+}
+TD.tb13 {
+	BORDER-RIGHT: #ddd 2px groove; BORDER-TOP: #ddd 2px groove; FONT-SIZE: 80%; LINE-HEIGHT: 100%
+}
+TD.tb14 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 7px; PADDING-TOP: 1px
+}
+TD.tb15 {
+	BORDER-RIGHT: #4e4e4e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #4e4e4e 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 2px; BORDER-LEFT: #4e4e4e 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 2px; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff
+}
+TR.brown {
+	BACKGROUND-COLOR: #999966
+}
+TR.tr1 {
+	FONT-SIZE: 80%; LINE-HEIGHT: 100%; BACKGROUND-COLOR: #ffffff
+}
+TR.tr1m {
+	FONT-SIZE: 90%; LINE-HEIGHT: 140%; BACKGROUND-COLOR: #ffffff
+}
+TR.tr2 {
+	FONT-SIZE: 80%; LINE-HEIGHT: 100%; BACKGROUND-COLOR: #f0f0f0
+}
+TR.tr2m {
+	FONT-SIZE: 90%; LINE-HEIGHT: 140%; BACKGROUND-COLOR: #f0f0f0
+}
+TR.tr3 {
+	BACKGROUND-COLOR: #f5f5f5
+}
+TR.tr4 {
+	BACKGROUND-COLOR: #faf7e3
+}
+TR.tr5 {
+	BACKGROUND-COLOR: #f5f5f5
+}
+TR.tr6 {
+	BACKGROUND-COLOR: #ffffff
+}
+TR.tr7 {
+	BACKGROUND-COLOR: #faf7e3
+}
+TR.tr8 {
+	BACKGROUND-COLOR: #002040
+}
+TR.tr9 {
+	FONT-SIZE: 80%; FONT-FAMILY: "Geneva CY",  Geneva, Arial; BACKGROUND-COLOR: #fff
+}
+TR.tr10 {
+	FONT-SIZE: 80%; FONT-FAMILY: "Geneva CY",  Geneva, Arial; BACKGROUND-COLOR: #eee
+}
+TR.trtit {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #303050; FONT-FAMILY: "Geneva CY",  Geneva, Arial; BACKGROUND-COLOR: #f7fff7
+}
+TR.tr11 {
+	BORDER-TOP: #ddd 2px groove; BACKGROUND-COLOR: #faf7e3
+}
+TR.tr1n {
+	FONT-SIZE: 80%; LINE-HEIGHT: 130%; BACKGROUND-COLOR: #ffffff
+}
+TR.tr2n {
+	FONT-SIZE: 80%; LINE-HEIGHT: 130%; BACKGROUND-COLOR: #f0f0f0
+}
+TD.tb16 {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; FONT-SIZE: 70%
+}
+TD.tb17 {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid
+}
+TD.tb18 {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; FONT-SIZE: 70%; BORDER-BOTTOM: #aaa 1px solid
+}
+TD.tb19 {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-BOTTOM: #aaa 1px solid
+}
+TD.tb20 {
+	BORDER-TOP: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid
+}
+.Purchase {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: maroon; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.Sale {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #006400; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.fOrg {
+	FONT-WEIGHT: bold; COLOR: #600060; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.dinPlus {
+	COLOR: #600000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.dinMinus {
+	COLOR: #006000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+.dinZero {
+	COLOR: #000000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lkp1:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lkp1:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lkp1:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #924242; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lkp2:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #b22222; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lkp2:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #b22222; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lkp2:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #b22222; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lkp3:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #924242; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lkp3:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #924242; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: none
+}
+A.lkp3:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #924242; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+.orgName {
+	FONT-WEIGHT: bold; FONT-SIZE: 150%; COLOR: #000; FONT-FAMILY: "Times New Roman cyril", "Times New Roman", Georgia, Times; TEXT-DECORATION: none
+}
+A.orgLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #000; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none
+}
+A.orgLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #000; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none
+}
+A.orgLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #f36; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: underline
+}
+TR.tr2b {
+	FONT-SIZE: 80%; LINE-HEIGHT: 100%; BACKGROUND-COLOR: #e0e0e0
+}
+A.lk9:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 100%; COLOR: #0000de; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk9:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 100%; COLOR: #0000de; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk9:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 100%; COLOR: #0000de; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk10:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #9000de; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk10:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #9000de; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+A.lk10:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #9000de; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY",  Geneva, Arial; TEXT-DECORATION: underline
+}
+TR.tr13 {
+	BORDER-RIGHT: #80b0f0 1px solid; BORDER-TOP: #80b0f0 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 90%; BORDER-LEFT: #80b0f0 1px solid; COLOR: #000000; LINE-HEIGHT: 120%; BORDER-BOTTOM: #80b0f0 1px solid; FONT-FAMILY: "Geneva CY",  Geneva, Arial; BACKGROUND-COLOR: #e9f3ff
+}
+TR.tr12 {
+	BORDER-TOP: #80b0f0 1px solid; BACKGROUND-COLOR: #e9f3ff
+}
+.popup7 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Geneva, Arial; HEIGHT: 8px; BACKGROUND-COLOR: #f0f0ff
+}
+.popup8 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; MARGIN: 2px; COLOR: #0000a0; PADDING-TOP: 2px; FONT-FAMILY: Geneva, Arial; BACKGROUND-COLOR: #f0f0ff
+}
+.ttSub {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%; COLOR: #005010; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+.ttSub2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #505050; FONT-FAMILY: "Geneva CY",  Geneva, Arial
+}
+A.lk11:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Arial, Geneva; TEXT-DECORATION: underline
+}
+A.lk11:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Arial, Geneva; TEXT-DECORATION: underline
+}
+A.lk11:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Arial, Geneva; TEXT-DECORATION: underline
+}
+A.lk12:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000060; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Arial, Geneva; TEXT-DECORATION: none
+}
+A.lk12:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000060; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Arial, Geneva; TEXT-DECORATION: none
+}
+A.lk12:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; COLOR: #000060; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Arial, Geneva; TEXT-DECORATION: underline
+}
+.tt19 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #039; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, "Arial Cyr"; TEXT-DECORATION: none
+}
+A.lk19:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: black; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, "Arial Cyr"; TEXT-DECORATION: none
+}
+A.lk19:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: black; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, "Arial Cyr"; TEXT-DECORATION: none
+}
+A.lk19:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: black; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, "Arial Cyr"; TEXT-DECORATION: underline
+}
+.sel19 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Geneva CY", Geneva, "Arial Cyr"; BACKGROUND-COLOR: #f0f0ff
+}
+TD.tbsp19 {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.goodsName {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%; COLOR: #000; FONT-FAMILY: "Times New Roman cyril", "Times New Roman", Georgia, Times; TEXT-DECORATION: none
+}
+TD.tb7w {
+	BORDER-RIGHT: #4e4e4e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #4e4e4e 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; BORDER-LEFT: #4e4e4e 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 4px; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff
+}
+A.superbannerName:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none; ont-style: normal
+}
+A.superbannerName:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none; ont-style: normal
+}
+A.superbannerName:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: underline; ont-style: normal
+}
+A.superbannerPrice:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #005010; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none; ont-style: normal
+}
+A.superbannerPrice:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #005010; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none; ont-style: normal
+}
+A.superbannerPrice:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #005010; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: underline; ont-style: normal
+}
+A.superbannerText:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000066; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none; ont-style: normal
+}
+A.superbannerText:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000066; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: none; ont-style: normal
+}
+A.superbannerText:hover {
+	FONT-SIZE: 10px; COLOR: #000066; FONT-FAMILY: "Geneva CY", Geneva, Arial; TEXT-DECORATION: underline; ont-style: normal
+}
